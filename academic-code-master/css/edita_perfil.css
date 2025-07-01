@@ -1,0 +1,64 @@
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+
+.textfield > input{
+  margin-left: 35%;
+    width: 50%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #514869;
+  color:#fffdfdd6;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #0000 ;
+  outline: none;
+  box-sizing: border-box;
+}
+
+  .icon {
+    position: relative;
+    margin-left: 15%;
+    margin-top: 3%;
+    width: 100px;
+    height: 100px;
+    margin-right: 100px;
+    border-radius: 50%;
+    background: #1b1b1b;
+    float: left;
+  }
+
+  .info {
+    width: 100%;
+    float: left;
+  }
+
+  .wrapper {
+    background: #2f2841;
+    width: 860px;
+    padding: 60px;
+   border-radius: 10px;
+  }
+
+  .btn-login{
+  width: 100%;
+  padding: 16px 0px;
+  margin-left: -20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #34235d;
+  background: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052
+}
